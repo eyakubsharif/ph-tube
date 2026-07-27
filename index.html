@@ -8,7 +8,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- font  awesome cdn -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!-- style.css file added -->
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -20,26 +21,39 @@
                 <div class="join">
                     <div class="">
                         <label class="input validator join-item">
-                            <input class="w-[250px]" type="email" placeholder="Search Here" required />
+                            <input id="searchValue"  class="w-[250px]" type="email" placeholder="Search Here" required />
                         </label>
                       
                     </div>
-                    <button class="btn btn-neutral join-item ">Search</button>
+                    <button id="searchBtn" class="btn btn-neutral join-item ">Search</button>
                     </div>
              </div>                           
              <div>
-                <button class="btn btn-md text-white bg-red-500">Blog</button>
+                <button id="blogBtn" class="btn btn-md text-white bg-red-500">Blog</button>
              </div>                           
         </div>
         <hr class="text-gray-200 w-11/12 mx-auto">
     </header>
 
     <div id="categories-container" class="flex justify-center items-center py-5 gap-5 max-w-xl mx-auto">
-        <button class="btn btn-sm bg-red-500 text-white font-bold px-3">All</button>
+        <button onclick="loadVideo()" class="btn btn-sm bg-red-500 text-white font-bold px-3">All</button>
     </div>
 
+    <div id="video-container" class="grid grid-cols-4 gap-2 w-11/12 mx-auto">
+        <div class="card">
+            <img class="shadow-md rounded-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKQw9HcUZhgvVEmhqOjvXso04M5E9sEl3izFo_9xtKUg&s=10" alt="">
+            <div class="flex gap-2 mt-2 ml-1">
+                <img class="w-8 h-8 rounded-full" src="images/Icon.png" alt="">
+                <div>
+                    <p class="font-semibold">Bangladesh veterinary university</p>
+                    <p class="flex text-sm gap-2 items-center text-gray-500">Fozle Rabbi <i class="fa-solid text-blue-400 fa-certificate"></i></p>
+                    <p class="text-gray-500 text-sm">999k Views</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
+    
 
 
 

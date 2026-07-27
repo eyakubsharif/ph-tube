@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "title": "Why JavaScript is Still the Most Popular Language",
+      "slug": "why-javascript-is-popular",
+      "category": "Programming",
+      "authorId": 1,
+      "featured": true,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHFqSrGtNwldXdAPB0UzUQ4XSSvHvhB8Om0dX9prtPWA&s=10",
+      "content": "JavaScript remains the most popular programming language primarily because it is the only native language of the web browser and has evolved into a highly versatile, full-stack ecosystem. This foundational monopoly ensuring every major browser—such as Google Chrome, Safari, and Firefox—interprets it natively guarantees its ubiquity. According to annual metrics like the Stack Overflow Developer Survey, JavaScript consistently holds the crown as the most commonly used language by developers worldwide.The continued dominance of JavaScript relies on several structural and environmental pillars:Universal Runtime and Browser MonopolyZero Installation: Users do not need runtime installations or compilers; any device with a browser runs JavaScript immediately.Write Once, Run Everywhere: It delivers uniform cross-platform experiences across Windows, macOS, Android, and iOS.Web Dependency: Modern web interactivity, such as dynamic dashboards, real-time content updates, and animations, depends entirely on JavaScript.The Rise of Full-Stack CapabilitiesUnified Language: The introduction of Node.js allowed JavaScript to break out of the browser into backend server logic.Simplified Engineering: Startups and enterprise companies can employ a single team of developers to write frontend, backend, database queries, and APIs using one syntax.Code Reusability: Complex application logic can be shared seamlessly between client-side and server-side operations.Massive Ecosystem and Corporate BackingPowerful UI Frameworks: Industry-standard frameworks like React, Vue, Angular, and Next.js make building complex applications rapid and highly structured.The npm Registry: JavaScript hosts the world's largest software registry (npm), providing ready-made packages for almost any feature or tool imaginable.Continuous Standards Evolution: The ECMAScript technical committee regularly rolls out updates (like modern async patterns and better performance features), preventing the language from feeling outdated.Accessibility and the TypeScript EvolutionBeginner-Friendly Loop: The lower barrier to entry lets beginners open a browser console, write code, and view instant feedback without complex IDE setups.The TypeScript Solution: To address criticisms of JavaScript's loose dynamic typing, Microsoft introduced TypeScript, which compiles down to raw JavaScript. TypeScript brings strict type safety to large-scale enterprise projects, reinforcing JavaScript's market stronghold.If you are looking to start or pivot your development journey, would you like to know about the best JavaScript frameworks to learn, or are you interested in how JavaScript compares directly to Python for modern AI and web jobs?",
+      "tags": ["JavaScript", "Web", "Programming"],
+      "views": 2450,
+      "likes": 320,
+      "readingTime": "6 min",
+      "publishedAt": "2026-07-20"
+    },
+    {
+      "id": 2,
+      "title": "10 Tips to Improve Your Coding Skills",
+      "slug": "coding-skills",
+      "category": "Programming",
+      "authorId": 1,
+      "featured": false,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHbflbsJxTu9lRdj6z_0AP1UvhZeqOQpB9u-fX3Iceaw&s=10",
+      "content": "Improving your coding skills requires daily practice, building real projects, and writing clean code. Here are 10 key tips to help you level up your programming abilities: code every day, build real projects, and master data structures.Core Practice HabitsCode daily: Write code every single day, even if it is just for 15 minutes. Consistency builds strong neural pathways.Build projects: Move past tutorials and create real side projects from scratch. Solving your own application ideas tests true capability.Master fundamentals: Do not skip basic concepts like loops, conditions, and core syntax. Strong foundations prevent future confusion.Learn data structures: Understand arrays, linked lists, and trees to organize data logically.Code Quality and LogicBreak down problems: Divide massive, complex tasks into small, manageable pieces before typing.Write clean code: Use clear names for variables and functions so others can read your work.Refactor regularly: Clean up old code to make it faster and simpler after it works.Read other code: Study open-source repositories or peer code to see alternative logic patterns.Collaboration and TestingUse version control: Learn Git to track history, manage changes, and save your work safely.Test and debug: As there is a consensus among users on Reddit, you should actively prove your code functions using debuggers rather than assuming it works",
+      "tags": ["Coding", "Career"],
+      "views": 1800,
+      "likes": 210,
+      "readingTime": "5 min",
+      "publishedAt": "2026-07-18"
+    },
+    {
+      "id": 3,
+      "title": "How Small Businesses Can Grow Online",
+      "slug": "business-online",
+      "category": "Business",
+      "authorId": 2,
+      "featured": true,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaj3mto7MVRTvM541xr36VDINBCKhUSNdoO_JCjChmkw&s=10",
+      "content": "Small businesses can grow online by building a professional website, optimizing local search profiles, and engaging users on social media. These core steps help attract new local buyers and build long-term trust.Build Your FoundationProfessional Website: Create a fast, mobile-friendly site that explains your products, location, and contact details clearly.Google Business Profile: Claim and update your local map listing with correct hours, photos, and your address to show up in  searches.Basic SEO: Use clear words and phrases on your web pages that match what local customers type into search engines.Connect and MarketSocial Media: Pick one or two platforms where your buyers spend time (like Facebook or Instagram) to share updates, photos, and short videos.Customer Reviews: Ask happy buyers to leave good ratings on your Google or social media pages to build instant trust.Email Updates: Collect customer emails to send news, special sales, and discount offers that bring people back",
+      "tags": ["Business", "Marketing"],
+      "views": 3100,
+      "likes": 410,
+      "readingTime": "8 min",
+      "publishedAt": "2026-07-15"
+    },
+    {
+      "id": 4,
+      "title": "Healthy Habits for Busy Professionals",
+      "slug": "healthy-habits",
+      "category": "Health",
+      "authorId": 2,
+      "featured": false,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7oTlFN01jQT0H_3lzwpseRrlRkLIY3VPwYdeRzrgHNQ&s=10",
+      "content": "Busy professionals can maintain a healthy lifestyle by focusing on smart nutrition, micro-workouts, and stress management. These quick shifts fit a tight schedule and protect your long-term well-being.Smart Nutrition & HydrationPack smart snacks: Keep nuts, fruit, or Greek yogurt nearby to avoid energy crashes.Hydrate often: Keep a reusable water bottle at your desk and sip all day to fight fatigue.Prep quick meals: Batch-cook lean proteins and whole grains ahead of time so you never skip a balanced meal.Physical Activity & MovementDo micro-workouts: Take 5 to 10 minutes for bodyweight squats, stretches, or a brisk walk.Follow the 20-20-20 rule: Look at something 20 feet away for 20 seconds every 20 minutes to rest your eyes.Take the stairs: Swap elevators for stairs whenever you can to add extra steps.Mental Health & RestTake a 2-minute timeout: Close your eyes, breathe deeply, and disconnect from your phone to lower stress.Set screen boundaries: Turn off work notifications at a set hour to protect your sleep time.If you want to focus on one specific area first, let me know if you prefer tips for quick home workouts, easy meal prep, or better sleep routines.",
+      "tags": ["Health", "Lifestyle"],
+      "views": 1500,
+      "likes": 180,
+      "readingTime": "4 min",
+      "publishedAt": "2026-07-10"
+    }
+  ]
