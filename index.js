@@ -53,7 +53,7 @@ const displayVideo =(videos)=>{
     for(let video of videos){
         const div = document.createElement('div')
         div.innerHTML = `
-            <div class="card">
+            <div onclick="my_modal_2.showModal(loadDetails('${video.video_id}'))" class="card cursor-pointer">
             <img class="shadow-md rounded-xl h-40" src="${video.thumbnail}">
             <div class="flex gap-2 mt-2 ml-1">
                 <img class="w-8 h-8 rounded-full" src="${video.authors[0].profile_picture}" alt="">
@@ -94,3 +94,46 @@ document.getElementById('searchBtn').addEventListener('click',function(){
 document.getElementById('blogBtn').addEventListener('click',function(){
     window.location.href ='blog.html'
 })
+
+const loadDetails = (id) => {
+    fetch(`https://openapi.programming-hero.com/api/phero-tube/video/${id}`)
+    .then(res => res.json())
+    .then(data => {
+    
+        const video =data.video
+        const {thumbnail,title,authors,profile_picture,profile_name,verified,others,description}=video
+        
+        const container = document.getElementById('container');
+        container.innerHTML =''
+        const div = document.createElement('div');
+        div.innerHTML = `
+            <div>
+            <img class="rounded-xl bg-cover bg-center w-full h-70" src="${thumbnail}" alt="">
+        <div class="">
+            <h1 class="font-bold text-xl">${title} </h1>
+                <div class="flex justify-between items-center gap-5 py-3">
+                    <div class="flex gap-2 items-center">
+                    <img class="w-12 h-12 rounded-full" src="${authors[0].profile_picture}" alt="">
+                    <div>
+                        <p class="font-semibold text-sm">${authors[0].profile_name}</p>
+                        <p class="text-xs">250k Follower</p>
+                    </div>
+                    <div class="flex gap-7 ml-5">
+                        <button class="btn btn-sm">${others.views}</button>
+                        <button class="btn btn-sm">${others.posted_date}</button>
+                    </div>
+                   
+                    </div>
+                   
+                 </div>
+                  <p class="text-sm">${description}</p>
+        </div>
+   
+        
+        `
+        container.appendChild(div)
+    })
+
+
+
+}

@@ -18,9 +18,9 @@ fetch('https://mocki.io/v1/bbd13613-0857-4fb2-8fef-3766ba3914af')
                 <p>${singleData.content}</p>
            
                 <div class="flex gap-3 items-center justify-end">
-                    <p class="font-semibold text-sm" >Like ${singleData.likes}</p>
-                    <p class="font-semibold text-sm">View ${singleData.views}</p>
-                    <p class="font-semibold text-sm">Date ${new Date().toLocaleTimeString()}</p>
+                    <p class="font-semibold text-xs" >Like ${singleData.likes}</p>
+                    <p class="font-semibold text-xs">View ${singleData.views}</p>
+                    <p class="font-semibold text-xs">Date ${new Date().toLocaleTimeString()}</p>
                 </div>   
              </div>
             
